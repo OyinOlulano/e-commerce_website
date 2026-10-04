@@ -1,0 +1,51 @@
+#topbar{
+    display:flex;
+    background-color: rgba(142, 155, 179, 0.936);
+    border: 1px solid rgba(27, 28, 33, 0.936);
+    align-items: center;
+    height: 70px;
+}
+
+.navigationbar{
+    display: flex;
+    width: 360px;
+    height: 40px;
+    margin-left: 10px;
+    align-items: center;
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 5px;
+    background-color: rgba(186, 202, 227, 0.936);
+}
+
+#topbar a{
+    color: rgba(78, 60, 60, 0.936);
+    margin: 10px;
+    text-decoration: none;
+}
+
+#topbar a h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#topbar a:hover{
+    color: rgba(118, 128, 60, 0.936);
+    text-decoration: underline;
+}
+
+.searchandcart{
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    background-color: rgba(186, 202, 227, 0.936);
+    display: flex;
+    align-items: center;
+}
+
+.searchandcart input{
+    border:  1px solid rgba(27, 28, 33, 0.936);
+}
+
+.blank{
+    margin: 312px;
+}
