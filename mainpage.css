@@ -4,18 +4,33 @@
     border: 1px solid rgba(27, 28, 33, 0.936);
     align-items: center;
     height: 70px;
+    justify-content: space-between;
 }
 
 .navigationbar{
-    display: flex;
-    width: 360px;
+    width: 800px;
     height: 40px;
     margin-left: 10px;
-    align-items: center;
     border: 1.5px solid rgba(27, 28, 33, 0.936);
     border-radius: 5px;
     background-color: rgba(186, 202, 227, 0.936);
 }
+
+.navigationbar menu{
+    display: flex;
+    height: 10px;
+    padding: 0px;
+    margin-left: 0px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.navigationbar li{
+    align-items: center;
+}
+
 
 #topbar a{
     color: rgba(78, 60, 60, 0.936);
@@ -40,12 +55,90 @@
     background-color: rgba(186, 202, 227, 0.936);
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 .searchandcart input{
     border:  1px solid rgba(27, 28, 33, 0.936);
 }
 
-.blank{
-    margin: 312px;
+#mainpageheader{
+    align-items: center;
+    background-image: url('MainPageHeader.png');
+    background-color: rgba(27, 21, 21, 0.6); 
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+}
+
+#mainpageheader h1{
+    color: rgba(243, 205, 205, 0.936);
+    font-family: cursive;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: dashed underline;
+    margin-top: 2px;
+}
+
+#mainpageheader h3{
+    color: rgba(243, 205, 205, 0.936);
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#recommendationsbar{
+   display: flex;
+
+}
+
+.recommendations-title{
+    width: 360px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(78, 60, 60, 0.936);
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 40px;
+    background-color: rgba(186, 202, 227, 0.936);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+}
+
+.recommendations{
+    margin-left: 0px;
+}
+
+.recommendations ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.recommendations li{
+    list-style-type: none;
+}
+
+.recommendations div{
+    margin-right: 20px;
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 5px;
+    background-color: rgba(186, 202, 227, 0.936);
+}
+
+.recommendations h3, p{
+   font-family: 'Courier New', Courier, monospace;
+   color: rgba(78, 60, 60, 0.936);
+}
+
+.recommendations p{
+    font-weight: bold;
+}
+
+.recommendations div img{
+    width: 370px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
