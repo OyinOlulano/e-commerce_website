@@ -144,3 +144,30 @@ a:hover{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
+#outoflink{
+cursor: not-allowed;
+}
+
+#outofstockp{
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-bottom: 0.1px;
+}
+
+#outofstock, #outofstockp{
+    color: rgba(78, 60, 60, 0.792);
+}
+
+#outofstock:hover{
+    color: rgba(118, 128, 60, 0.783);
+}
+
+#outofstocktext{
+   font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgba(243, 4, 4, 0.936); 
+    margin: 0px;
+    font-size: 12px;
+}
