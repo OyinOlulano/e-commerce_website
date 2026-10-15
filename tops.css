@@ -1,0 +1,125 @@
+#topbar{
+    display:flex;
+    background-color: rgba(142, 155, 179, 0.936);
+    border: 1px solid rgba(27, 28, 33, 0.936);
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.navigationbar{
+    width: 800px;
+    height: 40px;
+    margin-left: 10px;
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 5px;
+    background-color: rgba(186, 202, 227, 0.936);
+}
+
+.navigationbar menu{
+    display: flex;
+    height: 10px;
+    padding: 0px;
+    margin-left: 0px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.navigationbar li{
+    align-items: center;
+}
+
+
+#topbar a{
+    color: rgba(78, 60, 60, 0.936);
+    margin: 10px;
+    text-decoration: none;
+}
+
+#topbar a h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#topbar a:hover{
+    color: rgba(118, 128, 60, 0.936);
+    text-decoration: underline;
+}
+
+.searchandcart{
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    background-color: rgba(186, 202, 227, 0.936);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.searchandcart input{
+    border:  1px solid rgba(27, 28, 33, 0.936);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(78, 60, 60, 0.936);
+    font-size: 70px;
+    background-color: rgba(186, 202, 227, 0.936);
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: visible;
+}
+
+li{
+    list-style-type: none;
+    margin: 5px;
+}
+
+div{
+    margin-right: 20px;
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 5px;
+    background-color: rgba(186, 202, 227, 0.936);
+    width: 370px;
+}
+
+p{
+   font-family: 'Courier New', Courier, monospace;
+   color: rgba(78, 60, 60, 0.936);
+   text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
+div img{
+    width: 370px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a{
+    color: rgba(78, 60, 60, 0.936);
+    margin: 10px;
+    text-decoration: none;
+}
+
+a h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+a:hover{
+    color: rgba(118, 128, 60, 0.936);
+    text-decoration: underline;
+}
