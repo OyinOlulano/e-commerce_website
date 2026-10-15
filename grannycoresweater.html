@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoneyKnits - Fair Isle Grannycore Sweater</title>
+    <link rel="stylesheet" href="productpage.css">
+    <link rel="stylesheet" href="grannycoresweater.css">
+</head>
+<body>
+    <header>
+
+    <nav id="topbar">
+     <section class="navigationbar">
+      <menu>
+
+       <li>
+         <a href="mainpage.html" title="Main Page"> 
+          <h3>Home</h3> 
+         </a>
+       </li>
+
+       <li>
+         <a href="tops.html" title="Knit Tops"> 
+          <h3>Tops</h3> 
+         </a>
+       </li>
+
+       <li>
+         <a href="cardigans.html" title="Knit Cardigans"> 
+          <h3>Cardigans</h3> 
+         </a>
+       </li>
+
+       <li>
+         <a href="sweaters.html" title="Knit Sweaters"> 
+          <h3>Sweaters</h3> 
+         </a>
+       </li>
+      </menu>
+
+     </section>
+    <!--The html above defines only the structure of the navigation bar and its links-->
+
+     <section class="searchandcart">
+
+      <a href="cart.html" title="Cart"> 
+        <h3>Cart</h3> 
+      </a>
+      
+      <search>
+      <input type="text" placeholder="Search for clothing items...">
+      </search>
+
+     </section>
+    </nav>
+    
+   </header>
+  <!--The html code above defines the full structure of the top bar-->
+  <main>
+    <section id="imagebanner">
+        <h1>Fair Isle Grannycore Sweater</h1>
+    </section>
+    <article id="productdetails">
+     <h3>About This Fair Isle Sweater</h3>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ducimus 
+      illum quisquam nostrum modi et possimus ratione tempore repellat, velit consectetur? 
+      Facilis fugiat voluptates placeat exercitationem unde inventore adipisci dolor. Lorem 
+      ipsum dolor, sit amet consectetur adipisicing elit. Quasi, fuga beatae laboriosam dolor 
+      iure magnam provident perferendis, animi aliquid, asperiores facilis voluptatem fugiat 
+      natus. Voluptates incidunt minus aperiam dolores doloribus.</p>
+
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ducimus 
+      illum quisquam nostrum modi et possimus ratione tempore repellat, velit consectetur? 
+      Facilis fugiat voluptates placeat exercitationem unde inventore adipisci dolor. Lorem 
+      ipsum dolor, sit amet consectetur adipisicing elit. Quasi, fuga beatae laboriosam dolor 
+      iure magnam provident perferendis, animi aliquid, asperiores facilis voluptatem fugiat 
+      natus. Voluptates incidunt minus aperiam dolores doloribus.</p>
+
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ducimus 
+      illum quisquam nostrum modi et possimus ratione tempore repellat, velit consectetur? 
+      Facilis fugiat voluptates placeat exercitationem unde inventore adipisci dolor. Lorem 
+      ipsum dolor, sit amet consectetur adipisicing elit. Quasi, fuga beatae laboriosam dolor 
+      iure magnam provident perferendis, animi aliquid, asperiores facilis voluptatem fugiat 
+      natus. Voluptates incidunt minus aperiam dolores doloribus.</p>
+      
+      <h3>Price: $22.99</h3>
+    </article>
+    <section id="checkout">
+      <form action="cart.html">
+
+        <fieldset id="Sizing">
+         <legend>Sizing Options</legend>
+
+         <select name="sizing" id="sizing" required>
+          <option value="">--Please select a size--</option>
+
+          <optgroup label="Size Small">
+           <option value="">UK 8</option>
+           <option value="">UK 9</option>
+           <option value="">UK 10</option>
+          </optgroup>
+
+          <optgroup label="Size Medium">
+           <option value="">UK 12</option>
+           <option value="">UK 13</option>
+           <option value="">UK 14</option>
+          </optgroup>
+
+          <optgroup label="Size Large">
+           <option value="">UK 15</option>
+           <option value="">UK 16</option>
+           <option value="">UK 17</option>
+          </optgroup>
+         </select>
+
+        </fieldset>
+
+        <fieldset id="productquantity">
+         <legend>Quantity of Product</legend>
+         <input type="number" name="quantity" id="quantity" min="0" max="4" required>
+        </fieldset>
+        
+        <input type="submit" value="Add to Cart" id="cart">
+
+      </form>
+    </section>
+  </main>
+  
+</body>
+</html>

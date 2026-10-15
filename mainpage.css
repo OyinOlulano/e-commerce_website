@@ -31,18 +31,18 @@
     align-items: center;
 }
 
-
-#topbar a{
+ a{
     color: rgba(78, 60, 60, 0.936);
     margin: 10px;
     text-decoration: none;
 }
 
-#topbar a h3{
+ a h3{
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
-#topbar a:hover{
+a:hover{
     color: rgba(118, 128, 60, 0.936);
     text-decoration: underline;
 }
@@ -125,11 +125,13 @@
     border: 1.5px solid rgba(27, 28, 33, 0.936);
     border-radius: 5px;
     background-color: rgba(186, 202, 227, 0.936);
+    width: 370px;
 }
 
-.recommendations h3, p{
+.recommendations p{
    font-family: 'Courier New', Courier, monospace;
    color: rgba(78, 60, 60, 0.936);
+   text-align: center;
 }
 
 .recommendations p{
