@@ -85,6 +85,7 @@
       natus. Voluptates incidunt minus aperiam dolores doloribus.</p>
       
       <h3>Price: $22.99</h3>
+      <h4 id="outofstocktext">*Currently Out of Stock*</h4>
     </article>
     <section id="checkout">
       <form action="cart.html">
@@ -92,7 +93,7 @@
         <fieldset id="Sizing">
          <legend>Sizing Options</legend>
 
-         <select name="sizing" id="sizing" required>
+         <select name="sizing" id="sizing" required disabled>
           <option value="">--Please select a size--</option>
 
           <optgroup label="Size Small">
@@ -118,10 +119,10 @@
 
         <fieldset id="productquantity">
          <legend>Quantity of Product</legend>
-         <input type="number" name="quantity" id="quantity" min="0" max="4" required>
+         <input type="number" name="quantity" id="quantity" min="0" max="4" required disabled>
         </fieldset>
         
-        <input type="submit" value="Add to Cart" id="cart">
+        <input type="submit" value="Add to Cart" id="cart" disabled>
 
       </form>
     </section>
