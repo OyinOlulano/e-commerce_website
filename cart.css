@@ -61,3 +61,89 @@ a:hover{
 .searchandcart input{
     border:  1px solid rgba(27, 28, 33, 0.936);
 }
+
+#cartsearchbar{
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 5px;
+    height: 50px;
+    width: 1230px;
+    background-color:  rgba(142, 155, 179, 0.936);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#cartsearchbar input{
+    border:  1px solid rgba(27, 28, 33, 0.936);
+    margin: 3px;
+    width: 1220px;
+    height: 30px;
+}
+
+#cartitems{
+    margin-left: 0px;
+}
+
+#cartitems ul{
+    justify-content: space-around;
+}
+
+#cartitems li{
+    list-style-type: none;
+    margin-right: 20px;
+    border: 1.5px solid rgba(27, 28, 33, 0.936);
+    border-radius: 5px;
+    background-color: rgba(186, 202, 227, 0.936);
+    width: 1000px;
+    display: flex;
+    height: 220px;
+}
+
+#cartitems p{
+   font-family: 'Courier New', Courier, monospace;
+   color: rgba(78, 60, 60, 0.936);
+   text-align: center;
+   font-weight: bold;
+   margin: .5px;
+}
+
+#cartitems img{
+    width: 270px;
+    height: 220px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.itemdetails{
+    margin: 15px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+fieldset{
+    background-color: rgba(142, 155, 179, 0.936);
+    border: 0.5px solid rgba(27, 28, 33, 0.936);
+    height: 40px;
+    margin: 15px;
+}
+
+#checkout, #removecartitem{
+   border: 1.5px solid rgba(27, 28, 33, 0.936);
+   color: rgba(78, 60, 60, 0.936);
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+   align-items: center;
+}
+
+#checkout:hover, #removecartitem:hover{
+    background-color: rgba(142, 155, 179, 0.936);
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: .5px;
+}

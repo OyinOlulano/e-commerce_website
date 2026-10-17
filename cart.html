@@ -55,5 +55,68 @@
     </nav>
    </header>
   <!--The html code above defines the full structure of the top bar--> 
+
+   <main>
+    <section id="cartsearchbar">
+      <search>
+        <input type="search" name="cartsearch" id="cartsearch" placeholder="Search for items in your cart...">
+      </search>
+    </section>
+   </main>
+
+   <section id="cartitems">
+      <ul>
+
+       <li>
+        <div>
+         <img src="/Product Images/Blue and White Star Top.png" alt="Blue and White Star Top">
+         </div>
+         <div class="itemdetails">
+         <a href="startop.html"><h2>Blue and White Star Top</h2></a>
+         <p>$19.00</p>
+         <form action="cart.html">
+
+        <fieldset id="Sizing">
+         <legend>Sizing Options</legend>
+
+         <select name="sizing" id="sizing" required>
+
+          <optgroup label="Size Small">
+           <option value="">UK 8</option>
+           <option value="">UK 9</option>
+           <option value="">UK 10</option>
+          </optgroup>
+
+          <optgroup label="Size Medium">
+           <option value="">UK 12</option>
+           <option value="">UK 13</option>
+           <option value="">UK 14</option>
+          </optgroup>
+
+          <optgroup label="Size Large">
+           <option value="">UK 15</option>
+           <option value="">UK 16</option>
+           <option value="">UK 17</option>
+          </optgroup>
+         </select>
+
+        </fieldset>
+
+        <fieldset id="productquantity">
+         <legend>Quantity</legend>
+         <input type="number" name="quantity" id="quantity" min="1" max="4" value="1" required>
+        </fieldset>
+        
+      </form>
+         <input type="submit" value="Remove from Cart" id="removecartitem" name="removecartitem">
+         </div>
+       </li>
+        
+
+      </ul>
+
+      <input type="submit" value="Go To Checkout" id="checkout" name="checkout">
+     </section>
+
 </body>
 </html>
