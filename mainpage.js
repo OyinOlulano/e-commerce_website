@@ -43,17 +43,25 @@ const panel = document.querySelector(".panel")
     // Filter the array based on multiple fields (name OR role)
     if(searchTerm){
       panel.classList.remove("hidden")
-    let filteredResults = products.filter(products => {
-      return products.name.toLowerCase().includes(searchTerm)  ||
-              products.href.toLowerCase().includes(searchTerm)
+    let filteredResults = products.filter(product => {
+      return product.name.toLowerCase().includes(searchTerm)  ||
+              product.href.toLowerCase().includes(searchTerm)
     });
-    // Redraw the list with only the matching items
 
-    showSuggestions(filteredResults);
+    // Redraw the list with only the matching items
+      if (filteredResults.length > 0){
+      showSuggestions(filteredResults)}
+      else{
+        panel.innerHTML= `
+        <li>
+        <p>No matches found</p>
+        </li>
+        `
+      }
     } else{
       panel.innerHTML = ``
       panel.classList.add("hidden")
     }
   });
 
-
+// The code above defines the searchbar and its functions
